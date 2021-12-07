@@ -12,6 +12,7 @@ public class Main {
         System.out.println(pairwiseProblem.solveTwo(new int[]{1, 10, 2}));//20
         System.out.println(pairwiseProblem.solveTwo(new int[]{100000, 100000}));//10000000000
         System.out.println(pairwiseProblem.solveTwo(new int[]{0, 100000}));//0
+        System.out.println(pairwiseProblem.solveTwo(new int[]{100000,12,10,3,5,8,9}));//1200000
         System.out.println(pairwiseProblem.solveTwo(new int[]{0, 0, 0, 0}));//0
         try {
             System.out.println(pairwiseProblem.solveTwo(new int[]{1}));//illegal argument -> error
